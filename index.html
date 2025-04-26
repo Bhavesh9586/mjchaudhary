@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahendra Chaudhary - Graphic Designer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .btn-resume {
+            background: linear-gradient(90deg, #ff69b4, #ff99cc);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+            transition: all 0.3s ease;
+        }
+        .btn-resume:hover {
+            background: linear-gradient(90deg, #ff99cc, #ff69b4);
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255, 105, 180, 0.7);
+        }
+        .resume-icon {
+            margin-right: 10px;
+        }
+        .resume-icon svg {
+            width: 20px;
+            height: 20px;
+            fill: #fff;
+        }
+        .resume-label {
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+        }
+        .about-resume-btn-wrapper {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-blob blob1"></div>
+    <div class="background-blob blob2"></div>
+    <div class="background-blob blob3"></div>
+    <svg class="background-wave" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <linearGradient id="waveGradient" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#4db5ff" stop-opacity="0.45"/>
+          <stop offset="50%" stop-color="#6e57e0" stop-opacity="0.32"/>
+          <stop offset="100%" stop-color="#ff99cc" stop-opacity="0.18"/>
+        </linearGradient>
+      </defs>
+      <path fill="url(#waveGradient)" fill-opacity="1" d="M0,96L60,122.7C120,149,240,203,360,197.3C480,192,600,128,720,96C840,64,960,64,1080,85.3C1200,107,1320,149,1380,170.7L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+        <animate attributeName="d" dur="10s" repeatCount="indefinite" values="M0,96L60,122.7C120,149,240,203,360,197.3C480,192,600,128,720,96C840,64,960,64,1080,85.3C1200,107,1320,149,1380,170.7L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z;M0,160L60,176C120,192,240,224,360,197.3C480,171,600,85,720,96C840,107,960,213,1080,229.3C1200,245,1320,171,1380,138.7L1440,106L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z;M0,96L60,122.7C120,149,240,203,360,197.3C480,192,600,128,720,96C840,64,960,64,1080,85.3C1200,107,1320,149,1380,170.7L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"/>
+      </path>
+    </svg>
+    <header>
+        <div class="container">
+            <nav id="navbar">
+                <div class="logo">MJ Portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hello, I'm <span class="highlight">Mahendra Chaudhary</span></h1>
+                <h4>Graphic Designer</h4>
+                <p>Creating impactful and visually engaging designs with 3 years of industry experience</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn">Contact Me</a>
+                    <a href="#projects" class="btn btn-outline">View Work</a>
+                    <a href="https://www.instagram.com/mjchaudhary_?igsh=cjkybTlocWI0MnQy" class="btn btn-instagram" target="_blank" rel="noopener">
+                        <span class="instagram-icon">
+                            <svg width="20" height="20" viewBox="0 0 448 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9 114.9-51.3 114.9-114.9S287.7 141 224.1 141zm0 186.6c-39.6 0-71.7-32.1-71.7-71.7s32.1-71.7 71.7-71.7 71.7 32.1 71.7 71.7-32.1 71.7-71.7 71.7zm146.4-194.3c0 14.9-12.1 27-27 27s-27-12.1-27-27 12.1-27 27-27 27 12.1 27 27zm76.1 27.2c-1.7-35.3-9.9-66.7-36.2-92.1C388.7 9.9 357.3 1.7 322 0 285.7-1.7 162.3-1.7 126 0 90.7 1.7 59.3 9.9 33.9 36.2 9.9 59.3 1.7 90.7 0 126c-1.7 36.3-1.7 159.7 0 196 1.7 35.3 9.9 66.7 36.2 92.1C59.3 502.1 90.7 510.3 126 512c36.3 1.7 159.7 1.7 196 0 35.3-1.7 66.7-9.9 92.1-36.2 26.3-25.4 34.5-56.8 36.2-92.1 1.7-36.3 1.7-159.7 0-196zM398.8 388c-7.8 19.5-22.9 34.6-42.4 42.4-29.4 11.7-99.2 9-132.4 9s-103 .2-132.4-9c-19.5-7.8-34.6-22.9-42.4-42.4-11.7-29.4-9-99.2-9-132.4s-.2-103 9-132.4c7.8-19.5 22.9-34.6 42.4-42.4 29.4-11.7 99.2-9 132.4-9s103-.2 132.4 9c19.5 7.8 34.6 22.9 42.4 42.4 11.7 29.4 9 99.2 9 132.4s.2 103-9 132.4z"/>
+                            </svg>
+                        </span>
+                        <span class="instagram-label">Instagram</span>
+                    </a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/mjchaudhary_?igsh=cjkybTlocWI0MnQy" class="social-icon instagram" target="_blank" aria-label="Instagram">
+                        <svg width="28" height="28" viewBox="0 0 448 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="448" height="512" rx="90" fill="url(#ig-gradient)"/>
+                            <defs>
+                                <linearGradient id="ig-gradient" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0%" stop-color="#fd5949"/>
+                                    <stop offset="50%" stop-color="#d6249f"/>
+                                    <stop offset="100%" stop-color="#285AEB"/>
+                                </linearGradient>
+                            </defs>
+                            <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9 114.9-51.3 114.9-114.9S287.7 141 224.1 141zm0 186.6c-39.6 0-71.7-32.1-71.7-71.7s32.1-71.7 71.7-71.7 71.7 32.1 71.7 71.7-32.1 71.7-71.7 71.7zm146.4-194.3c0 14.9-12.1 27-27 27s-27-12.1-27-27 12.1-27 27-27 27 12.1 27 27z" fill="#fff"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon linkedin" target="_blank" aria-label="LinkedIn">
+                        <svg width="28" height="28" viewBox="0 0 448 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="448" height="512" rx="90" fill="#0077B5"/>
+                            <path d="M100.28 448H7.4V148.9h92.88zm-46.44-340.7C24.09 107.3 0 83.2 0 53.6A53.6 53.6 0 0 1 53.6 0a53.6 53.6 0 0 1 53.6 53.6c0 29.6-24.09 53.7-53.36 53.7zM447.9 448h-92.68V302.4c0-34.7-12.4-58.4-43.3-58.4-23.6 0-37.6 15.9-43.7 31.3-2.3 5.6-2.8 13.4-2.8 21.2V448h-92.8s1.2-242.7 0-267.1h92.8v37.9c12.3-19 34.3-46.1 83.4-46.1 60.8 0 106.5 39.7 106.5 125.2V448z" fill="#fff"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon whatsapp" target="_blank" aria-label="WhatsApp">
+                        <svg width="28" height="28" viewBox="0 0 448 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="448" height="512" rx="90" fill="#25D366"/>
+                            <path d="M380.9 97.1C339-2.5 221.2-33.1 141.6 37.5c-78.7 69.5-86.6 189.3-17.1 268l-30.2 89.6 92.4-28.7c77.6 51.5 181.7 18.1 230.8-70.6 49.2-88.7 17.5-201.2-66.6-238.7zm-99.1 288.1c-51.1 0-98.5-19.8-134.3-55.7-35.8-35.9-55.6-83.3-55.6-134.3 0-51.1 19.8-98.5 55.7-134.3 35.9-35.8 83.3-55.6 134.3-55.6 51.1 0 98.5 19.8 134.3 55.7 35.8 35.9 55.6 83.3 55.6 134.3 0 51.1-19.8 98.5-55.7 134.3-35.9 35.8-83.3 55.6-134.3 55.6zm-44.4-204.7c-5.6-11.2-11.2-11.6-15.7-11.8-4.1-.2-8.2-.2-12.3-.2-4.1 0-8.2 0-12.3.2-4.5.2-10.1.6-15.7 11.8-5.6 11.2-7.8 21.4-7.8 33.3 0 11.9 2.2 22.1 7.8 33.3 5.6 11.2 11.2 11.6 15.7 11.8 4.1.2 8.2.2 12.3.2 4.1 0 8.2 0 12.3-.2 4.5-.2 10.1-.6 15.7-11.8 5.6-11.2 7.8-21.4 7.8-33.3 0-11.9-2.2-22.1-7.8-33.3z" fill="#fff"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="my image/b35dede7-29b0-46b8-b6ac-41c0840ef4f0.jfif" alt="Mahendra Chaudhary">
+                </div>
+                <div class="about-text">
+                    <h3>Graphic Designer with 3 Years Experience</h3>
+                    <p>I'm a passionate Graphic Designer specializing in creating logo designs, branding materials, banners, business cards, and digital creative designs that make an impact.</p>
+                    <p>My focus is on delivering visually engaging designs that effectively communicate brand messages to target audiences. I have a strong ability to meet client objectives and boost brand presence through innovative design solutions.</p>
+                    
+                    <div class="about-cards">
+                        <div class="about-card">
+                            <i class="fas fa-user"></i>
+                            <h5>Personal</h5>
+                            <small>Name: Mahendra Chaudhary<br>
+                            Born: 07 April 2005</small>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h5>Location</h5>
+                            <small>At. Bhandotra, Ta. Dantiwada, <br>Dist. Banaskantha, Gujarat – 385545</small>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-phone"></i>
+                            <h5>Contact</h5>
+                            <small>mjchaudhary0704@gmail.com<br>
+                            +91 95865 69492</small>
+                        </div>
+                    </div>
+                    <div class="about-resume-btn-wrapper">
+                        <a href="Resume.pdf" class="btn btn-resume" download>
+                            <span class="resume-icon">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 2v11M10 13l-4-4m4 4l4-4" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <rect x="3" y="15" width="14" height="3" rx="1.5" fill="#fff" fill-opacity="0.25"/>
+                                </svg>
+                            </span>
+                            <span class="resume-label">Download Resume</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="skill-card">
+                    <i class="fas fa-palette"></i>
+                    <h4>CorelDraw</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-image"></i>
+                    <h4>Adobe Photoshop</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-camera"></i>
+                    <h4>Photography</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-print"></i>
+                    <h4>Printing Software</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-users"></i>
+                    <h4>Teamwork and Collaboration</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="timeline-section">
+        <div class="container">
+            <h2 class="title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 - 2024</span>
+                        <h3>Graphic Designer</h3>
+                        <h4>At Panthawada</h4>
+                        <p>Designed various promotional materials including logos, banners, business cards, and social media graphics. Worked closely with clients to understand their brand and create designs that align with their vision.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - 2024</span>
+                        <h3>Freelance Graphic Designer</h3>
+                        <h4>Self-employed</h4>
+                        <p>Created custom designs for various clients across different industries. Managed projects from concept to completion while ensuring client satisfaction and meeting deadlines.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="timeline-section">
+        <div class="container">
+            <h2 class="title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Pursuing</span>
+                        <h3>Bachelor of Commerce</h3>
+                        <h4>Hemchandracharya North Gujarat University</h4>
+                        <p>Currently pursuing Bachelor's degree in Commerce, focusing on business management and accounting principles.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022</span>
+                        <h3>High School Diploma (12th)</h3>
+                        <h4>Gujarat Secondary and Higher Secondary Education Board (GSEB)</h4>
+                        <p>Completed higher secondary education with focus on Commerce stream.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020</span>
+                        <h3>Secondary School (10th)</h3>
+                        <h4>Gujarat Secondary and Higher Secondary Education Board (GSEB)</h4>
+                        <p>Completed secondary education with good academic standing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="title">Projects</h2>
+            <div class="projects-content">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="project1.jpg" alt="Branding Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Brand Identity Design</h3>
+                        <p>Complete brand identity design including logo, color palette, typography, and brand guidelines for a local business.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Logo Design</span>
+                            <span class="project-tag">Branding</span>
+                            <span class="project-tag">CorelDraw</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="project2.jpg" alt="Marketing Materials">
+                    </div>
+                    <div class="project-info">
+                        <h3>Marketing Materials</h3>
+                        <p>Design of various marketing materials including brochures, flyers, banners, and social media posts for a marketing campaign.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Marketing</span>
+                            <span class="project-tag">Print Design</span>
+                            <span class="project-tag">Photoshop</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-item-text">
+                            <h4>Location</h4>
+                            <p>At. Bhandotra, Ta. Dantiwada, Dist. Banaskantha, Gujarat – 385545</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-item-text">
+                            <h4>Email</h4>
+                            <p>mjchaudhary0704@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-item-text">
+                            <h4>Phone</h4>
+                            <p>+91 95865 69492</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-language"></i>
+                        <div class="contact-item-text">
+                            <h4>Languages</h4>
+                            <p>Gujarati, Hindi, English</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">MJ Portfolio</div>
+                <p>Creating impactful designs that communicate and connect.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#education">Education</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/mjchaudhary_?igsh=cjkybTlocWI0MnQy" class="social-icon instagram" target="_blank" aria-label="Instagram">
+                        <svg width="28" height="28" viewBox="0 0 448 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="448" height="512" rx="90" fill="url(#ig-gradient)"/>
+                            <defs>
+                                <linearGradient id="ig-gradient" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0%" stop-color="#fd5949"/>
+                                    <stop offset="50%" stop-color="#d6249f"/>
+                                    <stop offset="100%" stop-color="#285AEB"/>
+                                </linearGradient>
+                            </defs>
+                            <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9 114.9-51.3 114.9-114.9S287.7 141 224.1 141zm0 186.6c-39.6 0-71.7-32.1-71.7-71.7s32.1-71.7 71.7-71.7 71.7 32.1 71.7 71.7-32.1 71.7-71.7 71.7zm146.4-194.3c0 14.9-12.1 27-27 27s-27-12.1-27-27 12.1-27 27-27 27 12.1 27 27z" fill="#fff"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon linkedin" target="_blank" aria-label="LinkedIn">
+                        <svg width="28" height="28" viewBox="0 0 448 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="448" height="512" rx="90" fill="#0077B5"/>
+                            <path d="M100.28 448H7.4V148.9h92.88zm-46.44-340.7C24.09 107.3 0 83.2 0 53.6A53.6 53.6 0 0 1 53.6 0a53.6 53.6 0 0 1 53.6 53.6c0 29.6-24.09 53.7-53.36 53.7zM447.9 448h-92.68V302.4c0-34.7-12.4-58.4-43.3-58.4-23.6 0-37.6 15.9-43.7 31.3-2.3 5.6-2.8 13.4-2.8 21.2V448h-92.8s1.2-242.7 0-267.1h92.8v37.9c12.3-19 34.3-46.1 83.4-46.1 60.8 0 106.5 39.7 106.5 125.2V448z" fill="#fff"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon whatsapp" target="_blank" aria-label="WhatsApp">
+                        <svg width="28" height="28" viewBox="0 0 448 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="448" height="512" rx="90" fill="#25D366"/>
+                            <path d="M380.9 97.1C339-2.5 221.2-33.1 141.6 37.5c-78.7 69.5-86.6 189.3-17.1 268l-30.2 89.6 92.4-28.7c77.6 51.5 181.7 18.1 230.8-70.6 49.2-88.7 17.5-201.2-66.6-238.7zm-99.1 288.1c-51.1 0-98.5-19.8-134.3-55.7-35.8-35.9-55.6-83.3-55.6-134.3 0-51.1 19.8-98.5 55.7-134.3 35.9-35.8 83.3-55.6 134.3-55.6 51.1 0 98.5 19.8 134.3 55.7 35.8 35.9 55.6 83.3 55.6 134.3 0 51.1-19.8 98.5-55.7 134.3-35.9 35.8-83.3 55.6-134.3 55.6zm-44.4-204.7c-5.6-11.2-11.2-11.6-15.7-11.8-4.1-.2-8.2-.2-12.3-.2-4.1 0-8.2 0-12.3.2-4.5.2-10.1.6-15.7 11.8-5.6 11.2-7.8 21.4-7.8 33.3 0 11.9 2.2 22.1 7.8 33.3 5.6 11.2 11.2 11.6 15.7 11.8 4.1.2 8.2.2 12.3.2 4.1 0 8.2 0 12.3-.2 4.5-.2 10.1-.6 15.7-11.8 5.6-11.2 7.8-21.4 7.8-33.3 0-11.9-2.2-22.1-7.8-33.3z" fill="#fff"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2025 Mahendra Chaudhary. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="particles.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
